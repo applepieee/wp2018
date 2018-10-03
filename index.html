@@ -20,33 +20,87 @@
      #d1{
         position: absolute;
          left:1%;
-          top:28%;
+         top:28%;
+        -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+         -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        animation-name: example1;
+        animation-duration: 1s;
        }
      #d2{
         position: absolute;
         left:60%; 
         top:28%;
+        -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        animation-name: example1;
+       animation-duration: 1s;
        }
      #d3{
        position: absolute;
        left:1%;
-      top:88%;
+       top:88%;
+       -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+       -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+      animation-name: example2;
+      animation-duration: 1s;
      }
      #d4{
       position: absolute;
       left:60%;
-     top:88%;
+      top:88%;
+     -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+     animation-name: example2;
+     animation-duration: 1s;
    }
     #d5{
      position: absolute;
       left:60%;
-       top:148%;
-     }
+      top:148%;
+      -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+     animation-name: example3;
+     animation-duration: 1s;
+   }
      #d6{
         position: absolute;
         left:1%;
         top:148%;
+        -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+        animation-name: example3;
+        animation-duration: 1s;
       }
+      @-webkit-keyframes example1 {
+            from {top:135%;}
+            to {top:1%;}
+         }
+     /* Standard syntax */
+     @keyframes example1 {
+           from {top:135%;}
+          to {top:1%;}
+       }
+
+      @-webkit-keyframes example2 {
+            from {top:135%;}
+            to {top:75%;}
+        }
+
+        /* Standard syntax */
+        @keyframes example2 {
+             from {top:135%;}
+             to {top:75%;}
+        }
+        @-webkit-keyframes example3 {
+             from {top:135%;}
+             to {top:135%;}
+       }
+
+       /* Standard syntax */
+       @keyframes example3 {
+           from {top:135%;}
+          to {top:1355%;}
+      }                                               }
    </style> 
    <link rel="stylesheet" href="style.css">
     <title>web exercise</title>
